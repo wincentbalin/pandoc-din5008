@@ -12,7 +12,6 @@ You will find out about even more settings by studying the [Usage section in Pho
 
 As in [Usage section in Phoenix4815/pandoc_letter](https://github.com/Phoenix4815/pandoc_letter#usage).
 
+# License
 
-
-
- 
+[Affero GPL 3.0](LICENSE)
