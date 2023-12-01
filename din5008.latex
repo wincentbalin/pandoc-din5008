@@ -240,6 +240,16 @@ $if(fromemail)$
 \setkomavar{fromemail}{$fromemail$}
 $endif$
 
+$if(invoice)$
+\setkomavar{invoice}{$invoice$}
+$endif$
+
+$if(frombank)$
+\setkomavar{frombank}{$frombank$}
+\setkomavar{firsthead}{%
+\usekomavar*{frombank}~\usekomavar{frombank}}
+$endif$
+
 $if(date)$
 \setkomavar{date}{$date$}
 $else$
