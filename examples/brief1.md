@@ -1,4 +1,5 @@
 ---
+fontsize: 11pt
 address:
     - An Max Mustermann
     - Fake Street 123
