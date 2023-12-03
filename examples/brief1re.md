@@ -15,6 +15,7 @@ fromaddress:
 fromname: Erika Musterfrau
 fromemail: example@example.de
 invoice: XXX0001
+frombank: "Bankverbindung: IBAN DE84 4756 5746 8474 4755 87 · BIC BGKHDEFG055\\Steuernummer: 75/246/38746"
 opening: Sehr geehrte Damen und Herren,
 closing: Mit freundlichen Grüßen
 encl: Wichtige Dokumente
@@ -22,10 +23,7 @@ header-includes: |
         \usepackage{longtable}
         \usepackage{array}
         \usepackage{booktabs}
-        \chead{\normalfont \sffamily Bankverbindung: IBAN DE84 4756 5746 8474 4755 87 $\cdot$ BIC BGKHDEFG055\\Steuernummer: 75/246/38746}
-        \cfoot{}
 ---
-\thispagestyle{scrheadings}
 hiermit stelle ich Ihnen die Durchführung der weiter unten aufgelisteten Tätigkeiten in Rechnung.
 
 -------------------------------------------------------------------------

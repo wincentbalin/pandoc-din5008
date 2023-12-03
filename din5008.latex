@@ -264,6 +264,11 @@ $include-before$
 $endfor$
 
 \begin{letter}{$for(address)$$address$$sep$\\$endfor$$if(subject)$\\ ~ \\$subject$$endif$}
+$if(frombank)$
+\chead{\normalfont \sffamily $frombank$}
+\cfoot{}
+\thispagestyle{scrheadings}
+$endif$
 \opening{$opening$}
 
 $body$
